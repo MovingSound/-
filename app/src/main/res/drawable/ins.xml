@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 点击之后的color -->
+    <item android:state_activated="true">
+        <shape>
+            <!-- 色值 -->
+            <solid android:color="#213C8F" />
+            <!-- 圆角 -->
+            <corners android:radius="75dp" />
+        </shape>
+    </item>
+    <!-- 未点击或再次点击之后的color -->
+    <item android:state_activated="false">
+        <shape>
+            <!-- 色值 -->
+            <solid android:color="#AAAAAA" />
+            <!-- 圆角 -->
+            <corners android:radius="75dp" />
+        </shape>
+    </item>
+</selector>
