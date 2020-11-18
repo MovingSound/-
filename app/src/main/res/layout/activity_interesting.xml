@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity3">
 
     <TextView
         android:id="@+id/textView2"
@@ -26,8 +26,8 @@
         android:background="@drawable/p1" />
 
     <Button
-        android:background="@drawable/button2"
-        android:id="@+id/p1b1"
+        android:background="@drawable/ins"
+        android:id="@+id/in1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/p1"
@@ -38,12 +38,12 @@
         android:textSize="20dp" />
 
     <Button
-        android:background="@drawable/button2"
-        android:id="@+id/p1b2"
+        android:background="@drawable/ins"
+        android:id="@+id/in2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/p1"
-        android:layout_toRightOf="@+id/p1b1"
+        android:layout_toRightOf="@+id/in1"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
         android:text="欧美"
@@ -51,12 +51,12 @@
         android:textSize="20dp"/>
 
     <Button
-        android:background="@drawable/button2"
-        android:id="@+id/p1b3"
+        android:background="@drawable/ins"
+        android:id="@+id/in3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/p1"
-        android:layout_toRightOf="@+id/p1b2"
+        android:layout_toRightOf="@+id/in2"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
         android:text="日语"
@@ -64,12 +64,12 @@
         android:textSize="20dp"/>
 
     <Button
-        android:background="@drawable/button2"
-        android:id="@+id/p1b4"
+        android:background="@drawable/ins"
+        android:id="@+id/in4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/p1"
-        android:layout_toRightOf="@+id/p1b3"
+        android:layout_toRightOf="@+id/in3"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
         android:text="韩语"
@@ -77,11 +77,11 @@
         android:textSize="20dp"/>
 
     <Button
-        android:background="@drawable/button2"
-        android:id="@+id/p1b5"
+        android:background="@drawable/ins"
+        android:id="@+id/in5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/p1b1"
+        android:layout_below="@+id/in1"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="5dp"
         android:text="粤语"
@@ -89,12 +89,12 @@
         android:textSize="20dp"/>
 
     <Button
-        android:background="@drawable/button2"
-        android:id="@+id/p1b6"
+        android:background="@drawable/ins"
+        android:id="@+id/in6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/p1b2"
-        android:layout_toRightOf="@+id/p1b5"
+        android:layout_below="@+id/in2"
+        android:layout_toRightOf="@+id/in5"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
         android:text="闽南语"
@@ -102,12 +102,12 @@
         android:textSize="20dp"/>
 
     <Button
-        android:background="@drawable/button2"
-        android:id="@+id/p1b7"
+        android:background="@drawable/ins"
+        android:id="@+id/in7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/p1b2"
-        android:layout_toRightOf="@+id/p1b6"
+        android:layout_below="@+id/in2"
+        android:layout_toRightOf="@+id/in6"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
         android:text="纯音乐"
@@ -123,8 +123,8 @@
         android:background="@drawable/p2" />
 
     <Button
-        android:background="@drawable/button2"
-        android:id="@+id/p2b1"
+        android:background="@drawable/ins"
+        android:id="@+id/in8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/p2"
@@ -135,12 +135,12 @@
         android:textSize="20dp"/>
 
     <Button
-        android:background="@drawable/button2"
-        android:id="@+id/p2b2"
+        android:background="@drawable/ins"
+        android:id="@+id/in9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/p2"
-        android:layout_toRightOf="@+id/p2b1"
+        android:layout_toRightOf="@+id/in8"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
         android:text="摇滚"
@@ -148,12 +148,12 @@
         android:textSize="20dp"/>
 
     <Button
-        android:background="@drawable/button2"
-        android:id="@+id/p2b3"
+        android:background="@drawable/ins"
+        android:id="@+id/in10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/p2"
-        android:layout_toRightOf="@+id/p2b2"
+        android:layout_toRightOf="@+id/in9"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
         android:text="民谣"
@@ -161,12 +161,12 @@
         android:textSize="20dp"/>
 
     <Button
-        android:background="@drawable/button2"
-        android:id="@+id/p2b4"
+        android:background="@drawable/ins"
+        android:id="@+id/in11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/p2"
-        android:layout_toRightOf="@+id/p2b3"
+        android:layout_toRightOf="@+id/in10"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
         android:text="电子"
@@ -174,11 +174,11 @@
         android:textSize="20dp"/>
 
     <Button
-        android:background="@drawable/button2"
-        android:id="@+id/p2b5"
+        android:background="@drawable/ins"
+        android:id="@+id/in12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/p2b1"
+        android:layout_below="@+id/in8"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="5dp"
         android:text="舞曲"
@@ -186,12 +186,12 @@
         android:textSize="20dp"/>
 
     <Button
-        android:background="@drawable/button2"
-        android:id="@+id/p2b6"
+        android:background="@drawable/ins"
+        android:id="@+id/in13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/p2b2"
-        android:layout_toRightOf="@+id/p2b5"
+        android:layout_below="@+id/in9"
+        android:layout_toRightOf="@+id/in12"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
         android:text="说唱"
@@ -199,12 +199,12 @@
         android:textSize="20dp"/>
 
     <Button
-        android:background="@drawable/button2"
-        android:id="@+id/p2b7"
+        android:background="@drawable/ins"
+        android:id="@+id/in14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/p2b3"
-        android:layout_toRightOf="@+id/p2b6"
+        android:layout_below="@+id/in10"
+        android:layout_toRightOf="@+id/in13"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
         android:text="爵士"
@@ -212,12 +212,12 @@
         android:textSize="20dp"/>
 
     <Button
-        android:background="@drawable/button2"
-        android:id="@+id/p2b8"
+        android:background="@drawable/ins"
+        android:id="@+id/in15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/p2b4"
-        android:layout_toRightOf="@+id/p2b7"
+        android:layout_below="@+id/in11"
+        android:layout_toRightOf="@+id/in14"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
         android:text="乡村"
@@ -225,11 +225,11 @@
         android:textSize="20dp"/>
 
     <Button
-        android:background="@drawable/button2"
-        android:id="@+id/p2b9"
+        android:background="@drawable/ins"
+        android:id="@+id/in16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/p2b5"
+        android:layout_below="@+id/in12"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="5dp"
         android:text="古典"
@@ -237,12 +237,12 @@
         android:textSize="20dp"/>
 
     <Button
-        android:background="@drawable/button2"
-        android:id="@+id/p2b10"
+        android:background="@drawable/ins"
+        android:id="@+id/in17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/p2b6"
-        android:layout_toRightOf="@+id/p2b9"
+        android:layout_below="@+id/in13"
+        android:layout_toRightOf="@+id/in16"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
         android:text="民族"
@@ -250,12 +250,12 @@
         android:textSize="20dp"/>
 
     <Button
-        android:background="@drawable/button2"
-        android:id="@+id/p2b11"
+        android:background="@drawable/ins"
+        android:id="@+id/in18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/p2b7"
-        android:layout_toRightOf="@+id/p2b10"
+        android:layout_below="@+id/in14"
+        android:layout_toRightOf="@+id/in17"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
         android:text="古风"
@@ -263,12 +263,12 @@
         android:textSize="20dp"/>
 
     <Button
-        android:background="@drawable/button2"
-        android:id="@+id/p2b12"
+        android:background="@drawable/ins"
+        android:id="@+id/in19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/p2b8"
-        android:layout_toRightOf="@+id/p2b11"
+        android:layout_below="@+id/in15"
+        android:layout_toRightOf="@+id/in18"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
         android:text="拉丁"
@@ -276,11 +276,11 @@
         android:textSize="20dp"/>
 
     <Button
-        android:background="@drawable/button2"
-        android:id="@+id/p2b13"
+        android:background="@drawable/ins"
+        android:id="@+id/in20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/p2b9"
+        android:layout_below="@+id/in16"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="5dp"
         android:text="蓝调"
@@ -288,32 +288,33 @@
         android:textSize="20dp"/>
 
     <Button
-        android:background="@drawable/button2"
-        android:id="@+id/p2b14"
+        android:background="@drawable/ins"
+        android:id="@+id/in21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/p2b10"
+        android:layout_below="@+id/in17"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
-        android:layout_toRightOf="@+id/p2b13"
+        android:layout_toRightOf="@+id/in20"
         android:text="朋克"
         android:textColor="#000000"
         android:textSize="20dp"/>
 
     <Button
-        android:background="@drawable/button2"
-        android:id="@+id/p2b15"
+        android:background="@drawable/ins"
+        android:id="@+id/in22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/p2b11"
+        android:layout_below="@+id/in18"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
-        android:layout_toRightOf="@+id/p2b14"
+        android:layout_toRightOf="@+id/in21"
         android:text="轻音乐"
         android:textColor="#000000"
         android:textSize="20dp"/>
 
     <Button
+        android:id="@+id/in23"
         android:background="@drawable/button_shape2"
         android:layout_width="111dp"
         android:layout_height="63dp"
@@ -322,6 +323,7 @@
         android:text="随便看看" />
 
     <Button
+        android:id="@+id/in24"
         android:background="@drawable/button_shape2"
         android:layout_width="111dp"
         android:layout_height="63dp"
