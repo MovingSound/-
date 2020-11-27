@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7"
+    android:orientation="vertical"
+    tools:context=".gedan">
+
+    <TextView
+        android:id="@+id/pic_chose_title1"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="20dp"
+        android:text="自定义歌曲风格"
+        android:textColor="#050505"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/pic_chose_t1"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:text="语种"
+        android:layout_marginLeft="15dp"
+        android:textColor="#050505"
+        android:textSize="20sp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="6dp">
+
+        <Button
+            android:id="@+id/yuzhong_btn1"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:text="华语"
+            android:background="@drawable/test"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/yuzhong_btn2"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/test"
+            android:text="日语"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/yuzhong_btn3"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/test"
+            android:text="欧美"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+        <Button
+            android:id="@+id/yuzhong_btn4"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/test"
+            android:text="粤语"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pic_chose_t2"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:text="情感"
+        android:layout_marginLeft="15dp"
+        android:textColor="#050505"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="6dp">
+
+        <Button
+            android:id="@+id/qinggan_btn1"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/test"
+            android:text="怀旧"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/qinggan_btn2"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/test"
+            android:text="清新"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/qinggan_btn3"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/test"
+            android:text="治愈"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+        <Button
+            android:id="@+id/qinggan_btn4"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/test"
+            android:text="忧伤"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="6dp">
+
+        <Button
+            android:id="@+id/qinggan_btn5"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/test"
+            android:text="浪漫"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/qinggan_btn6"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/test"
+            android:text="兴奋"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/qinggan_btn7"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/test"
+            android:text="安静"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/pic_chose_t3"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:text="风格"
+        android:layout_marginLeft="15dp"
+        android:textColor="#050505"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="6dp">
+
+        <Button
+            android:id="@+id/liuxing_btn1"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/test"
+            android:text="流行"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/liuxing_btn2"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/test"
+            android:text="电子"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/liuxing_btn3"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/test"
+            android:text="古典"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+        <Button
+            android:id="@+id/liuxing_btn4"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/test"
+            android:text="摇滚"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="6dp">
+
+        <Button
+            android:id="@+id/liuxing_btn5"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/test"
+            android:text="乡村"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/liuxing_btn6"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/test"
+            android:text="民谣"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/liuxing_btn7"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/test"
+            android:text="金属"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/liuxing_btn8"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/test"
+            android:text="爵士"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="6dp">
+
+        <Button
+            android:id="@+id/liuxing_btn9"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/test"
+            android:text="英伦"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/liuxing_btn10"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/test"
+            android:text="拉丁"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/liuxing_btn11"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/test"
+            android:text="蓝调"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/liuxing_btn12"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/test"
+            android:text="古风"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="6dp">
+
+        <Button
+            android:id="@+id/liuxing_btn13"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:background="@drawable/test"
+            android:text="世界音乐"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/liuxing_btn14"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/test"
+            android:text="后摇"
+            android:textColor="@drawable/test3"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/wancheng_btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="110dp"
+        android:text="完成选择"
+        android:background="@drawable/test"
+        android:textColor="@drawable/test3"
+        android:textSize="20sp" />
+
+</LinearLayout>
