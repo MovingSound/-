@@ -13,7 +13,7 @@ import java.io.IOException;
 public class bofang extends AppCompatActivity {
     EditText urlst,name1;
     Button click;
-    MediaPlayer mediaPlayer;
+    static MediaPlayer mediaPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,8 +25,8 @@ public class bofang extends AppCompatActivity {
         click.setText("播放");
         String id=getIntent().getStringExtra("id");
         String name=getIntent().getStringExtra("name");
-        urlst.setText("相似歌曲id为"+id);
-        name1.setText("相似歌曲名称为"+name);
+        urlst.setText("播放歌曲id为"+id);
+        name1.setText("播放歌曲名称为"+name);
         String mp3_url=getIntent().getStringExtra("mp3_url");
         if(mediaPlayer==null)
         {
@@ -37,6 +37,15 @@ public class bofang extends AppCompatActivity {
                 e.printStackTrace();
             }
             mediaPlayer.prepareAsync();
+        }
+        else{
+            try {
+                mediaPlayer.reset();
+                mediaPlayer.setDataSource(mp3_url);
+                mediaPlayer.prepareAsync();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
         click.setOnClickListener(new View.OnClickListener() {
             @Override
