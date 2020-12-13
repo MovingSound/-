@@ -27,14 +27,12 @@ urlpatterns = [
     path('comment/', include('comment.urls')),
     path('search/', include('search.urls')),
     path('user/', include('user.urls')),
-    # 设置项目上线的静态资源路径
-    # url('^static/(?P<path>.*)$', static.serve,
-    #      {'document_root': settings.STATIC_ROOT}, name='static')
+    url('^static/(?P<path>.*)$', static.serve,
+         {'document_root': settings.STATIC_ROOT}, name='static')
 ]
 
 
 # 设置404、500错误状态码
 from index import views
-
 handler404 = views.page_not_found
 handler500 = views.page_error
