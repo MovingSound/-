@@ -15,6 +15,7 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
@@ -77,9 +78,6 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
-        'libraries': {
-                'staticfiles': 'django.templatetags.static',
-            },
         },
     },
 ]
@@ -94,7 +92,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'movingsound',
-        'USER':'root',
+        'USER':'movingsound',
         'PASSWORD':'axx123123',
         'HOST':'127.0.0.1',
         'PORT':'3306',
@@ -139,13 +137,8 @@ USE_TZ = True
 AUTH_USER_MODEL = 'user.MyUser'
 
 # Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/2.0/howto/static-files/
 # STATIC_ROOT用于项目部署上线的静态资源文件
-STATIC_ROOT = 'D:/PycharmProject/第11章/music/static'
+STATIC_ROOT = 'home/music/static'
 STATIC_URL = '/static/'
 # STATICFILES_DIRS用于收集admin的静态资源文件
-# STATICFILES_DIRS = (
-#      os.path.join(BASE_DIR, 'static').replace('\\', '/'),
-#      os.path.join(BASE_DIR,).replace('\\', '/'),
-# )
-STATICFILES_DIRS = [(os.path.join(BASE_DIR, 'static'))]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]
