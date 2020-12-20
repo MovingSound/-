@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_music"
+    android:gravity="center"
+    tools:context=".bofang">
+
+    <TextView
+        android:layout_margin="20dp"
+        android:text=""
+        android:textSize="30dp"
+        android:id="@+id/urlst"
+        android:gravity="top"
+        android:textColor="#FFFFFF"
+        android:layout_width="330dp"
+        android:layout_height="100dp">
+
+    </TextView>
+    <TextView
+        android:layout_margin="20dp"
+        android:text=""
+        android:textSize="30dp"
+        android:id="@+id/name"
+        android:textColor="#FFFFFF"
+        android:gravity="top"
+        android:layout_width="330dp"
+        android:layout_height="100dp">
+
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="334dp"
+        android:layout_height="wrap_content">
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/jindutiao_color"
+            android:maxHeight="3.4dp"
+            android:minHeight="3.4dp"
+            android:thumb="@mipmap/dxin"
+            android:layout_marginTop="80dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/seekBar"
+            android:layout_alignEnd="@id/seekBar"
+            android:layout_alignRight="@id/seekBar">
+
+            <TextView
+                android:id="@+id/music_cur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/" />
+
+            <TextView
+                android:id="@+id/music_length"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/click"
+        android:layout_marginTop="30dp"
+        android:text="播放"
+        android:layout_width="100dp"
+        android:layout_height="50dp"></Button>
+</LinearLayout>
